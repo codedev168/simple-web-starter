@@ -3,12 +3,25 @@
   "version": "1.0.0",
   "description": "A simple website starter with HTML, CSS and JavaScript.",
   "main": "dist/index.html",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"No tests\" && exit 0"
+    "test": "node test-runner.js",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": ["starter","web","html","css","javascript"],
+  "keywords": [
+    "starter",
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
   "author": "codedev168",
   "license": "MIT",
-  "publishConfig": { "access": "public" }
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module"
 }
