@@ -1,0 +1,14 @@
+{
+  "name": "@codedev168/simple-web-starter",
+  "version": "1.0.0",
+  "description": "A simple website starter with HTML, CSS and JavaScript.",
+  "main": "dist/index.html",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "keywords": ["starter","web","html","css","javascript"],
+  "author": "codedev168",
+  "license": "MIT",
+  "publishConfig": { "access": "public" }
+}
